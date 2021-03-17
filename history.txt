@@ -1,0 +1,346 @@
+touch README.md
+git add -A
+git commit -m "init README.md"
+git push
+git tag -a v0.0 -m "base version"
+git push origin v0.0
+git checkout -b b_test
+git push -u origin b_test
+touch index.html
+ls
+git add -A
+git commit -m "init index.html"
+git push
+ls -l
+git checkout master
+git checkout b_test
+git checkout master
+ls -l
+git checkout b_test
+ls -l
+git checkout master
+ls -l
+git checkout -b b_html
+git push -u origin b_html
+ls
+touch index.html
+git add -A 
+git commit -m "init index.html"
+git push
+ls -l
+git checkout master
+ls -l
+vim README.md
+git add -A
+git commit -m "title, author"
+git push
+ls
+cat README.md 
+git checkout
+git branch -d b_html
+git push -u origin b_html
+git push -u origin :b_html
+git branch -vv
+git reflog
+git checkout -b b_html e8991c0
+ls -l
+git branch -vv
+git push -u origin b_html
+git checkout b_html
+touch style.css
+git add -A
+git commit -m "style.css in wrong branch"
+git push
+git revert --no-edit HEAD
+git commit -m "Revert: remove style.css"
+git push
+git checkout b_html
+git rebase master
+git pull
+git log --graph --online
+git log --graph --oneline
+git checkout 
+git branch
+git push
+git checkout master
+git merge b_html
+ls
+git push
+git log --graph --oneline
+git branch
+git tag -a v0.1 -m "HTML only"
+git push origin v0.1
+git branch
+git tag
+git checkout master
+git checkout -b b_css
+git push -u origin b_css
+git branch
+ls -l
+mkdir styles
+touch styles/main.css
+git add -A
+git commit -m "init main.css"
+git push
+vim README.md 
+ls
+cat README.md 
+ls
+git add -A
+git commit -m "README: with CSS"
+git push
+git checkout master
+vim README.md 
+cat README.md 
+git add -A
+git commit -m "README: with HTML"
+git push
+git branch
+git checkout b_css
+git rebase master
+git diff
+git mergetool --tool=vimdiff
+ls
+cat README.md
+cat README.md.orig 
+git branch
+git add README.md.orig 
+git add README.md
+git branch
+git rebase --continue
+git pull
+git mergetool --tool=vimdiff
+git add README.md
+git rebase --continue
+git branch
+ls
+cat README.md
+vim README.md
+git rebase master
+git diff
+,
+git stash
+git rebase master
+git branch
+git checkout b_css
+git rebase master
+git diff
+ls
+cat README.md
+git mergetool --tool=vimdiff
+git branch
+nano b_css
+nano README.md
+git checkout b_css
+git rebase master
+git checkout master
+git branch
+git checkout master
+git stash
+git checkout master
+ls
+cat README.md 
+git checkout b_css
+git branch
+ls
+cat README.md
+git diff
+git mergetool --tool=vimdiff
+git rebase master
+ls
+nano README.md
+git checkout master
+ls
+git branch ?
+git branch 
+git branch -dd
+git branch -d b_css
+ls
+cd Documents/
+ls
+cd git
+ls
+cd icd0007_lab
+cd icd0007_lab3_issoys/
+ls
+git branch
+git branch -d b_css
+git checkout master
+git stash
+git checkout master
+git branch -d b_css
+git branch -D b_css
+git checkout
+git branch
+git checkout -b b_css
+git push -u origin b_css
+git push
+git push origin master
+git push origin b_css
+git pull
+git pull master
+git pull
+git pull b_css
+cd ..
+git pull https://gitlab.cs.ttu.ee/issoys/icd0007_lab3_issoys.git
+ls
+cd icd0007_lab3_issoys/
+ls
+git pull
+git pull origin master
+git pull
+git branch
+git push -u origin b_css
+git pull origin b_css
+git push -u origin b_css
+git checkout 
+ls
+cat README.md 
+git checkout -b b_css
+git checkout b_css
+ls
+git checkout master
+git branch -d b_css
+git checkout master
+git stash
+git pull
+ls
+rm README.md 
+git pull
+ls
+git pull
+ls
+cd ..
+ls
+rm -R icd0007_lab3_issoys/
+ls
+sudo rm -R icd0007_lab3_issoys/
+ü
+ls
+git pull icd0007_lab3_issoys/
+cd icd0007_lab3_issoys/
+git clone git@gitlab.cs.ttu.ee:issoys/icd0007_lab3_issoys.git
+ls
+git branch 
+git checkout b_css
+git checkout
+git pull
+ls
+sudo rm -R icd0007_lab3_issoys/
+ls
+rm -R icd0007_lab3_issoys/
+y
+ls
+cd ..
+ls
+rm -R icd0007_lab3_issoys/
+y
+ls
+rm -R icd0007_lab3_issoys/
+y
+ls
+git clone git@gitlab.cs.ttu.ee:issoys/icd0007_lab3_issoys.git
+ls
+cd icd0007_lab3_issoys/
+ls
+cat README.md 
+git branch
+ls
+git checkout
+git checout b_html
+git checkout b_html
+git checkout b_test
+git checkout
+git checkout master
+git pull
+git checkout -b b_css
+git push -u origin b_css
+mkdir styles
+touch styles/main.css
+git add -A
+git commit -m "init main.css"
+git push
+git checkout
+ls
+cat README.md 
+vim README.md 
+git add -A
+git commit -m "README: with CSS"
+git push
+git rebase master
+git diff
+git checkout master
+ls
+cat index.html 
+cat README.md 
+git checkout b_css
+cat README.md 
+git checkout b_css
+git rebase master
+git checkout master
+ls
+nano README.md 
+git diff
+git add -A
+git commit -m "README: with HTML"
+git push
+git checkout b_css
+git diff
+ls
+cat README.md 
+ls
+git rebase master
+git pull
+git checkout master
+ls
+nano README.md 
+git add -A
+git commit -m "README: with HTML"
+git push
+git checkout b_css
+git rebase master
+git diff
+git mergetool 
+ls
+git add README.md
+git rebase --continue
+git pull
+vim README.md
+cat README.md
+nano README.md
+git add README.md
+git rebase --continue
+git pull
+vim README.md
+git add README.md.orig 
+git reset
+git add README.md
+git rebase --continue
+git checkout
+git rebase master
+git commit -m "README: resolved"
+git push
+git pull
+ls
+cat README.md
+nano README.md
+git add README.md
+git rebase --continue
+git rebase master
+git rebase --continue
+git pull
+git commit -m "README: resolved"
+git push
+git pull
+cat README.md
+git checkout master
+cat README.md
+git merge origin/b_css
+git push
+ls
+cat README.md
+git tag -a v1.0 -m "HTML+CSS"
+git push origin v1.0
+git log --graph --oneline
+git log --oneline
+git log
